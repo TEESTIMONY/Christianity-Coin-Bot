@@ -12,16 +12,24 @@ from decimal import Decimal, getcontext
 import threading
 import json
 ## ================================ db ========================##
+
+# db_config = {
+#     'user': 'root',
+#     'password': 'Testimonyalade@2003',
+#     'host': 'localhost',
+#     'database': 'telegram_bot',
+# }
+
+
 db_config = {
     'user': 'root',
-    'password': 'Testimonyalade@2003',
-    'host': 'localhost',
-    'database': 'telegram_bot',
+    'password': 'Str0ng!Passw0rd',
+    'host': '154.12.231.59',
+    'database': 'christianity_db',
 }
-
 stop_events = {}
 
-
+# 'CREATE DATABASE christianity_db; '
 
 def create_connection():
     try:
