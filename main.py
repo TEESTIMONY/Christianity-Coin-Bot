@@ -865,7 +865,7 @@ async def bot_added_to_group(update: Update, context: ContextTypes.DEFAULT_TYPE)
     )
 
         keyboard = [
-        [InlineKeyboardButton("Open Help", url="https://t.me/popule_bot?start=help_")]
+        [InlineKeyboardButton("Open Help", url="https://t.me/Christianity_Coin_bot?start=help_")]
     ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         try: 
